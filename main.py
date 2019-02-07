@@ -38,12 +38,12 @@ if __name__ == '__main__':
     n=20
     points=[]
     cercles=[]
+    x=[]
+    y=[]
 
     for i in range(n):
         points.append([20*random.random()-10,20*random.random()-10])
 
-    x=[]
-    y=[]
     for i in range(len(points)):
         x.append(points[i][0])
         y.append(points[i][1])
